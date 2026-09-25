@@ -27,14 +27,14 @@
 ### 4. **Updated Configuration**
 - ✅ **Package.json scripts** for easy access
 - ✅ **Environment variables** properly configured
-- ✅ **Dependencies installed** (googleapis, open)
+- ✅ **Dependencies installed** (google-auth-library, open)
 - ✅ **Comprehensive setup guide** (OAUTH_SETUP.md)
 
 ## Key Features Similar to Your Working App
 
 ### 🔐 **OAuth2 Client Creation**
 ```javascript
-const oAuth2Client = new google.auth.OAuth2(clientId, clientSecret, redirectUri);
+const oAuth2Client = new OAuth2Client(clientId, clientSecret, redirectUri);
 ```
 
 ### 🌐 **Local Server for Callback**

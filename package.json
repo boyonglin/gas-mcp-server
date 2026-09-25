@@ -19,11 +19,11 @@
     "commander": "^13.1.0",
     "dotenv": "^16.4.7",
     "express": "^5.1.0",
-    "googleapis": "^149.0.0",
+    "google-auth-library": "^11.1.0",
     "open": "^10.1.2"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=22"
   },
   "author": "Postman, Inc.",
   "license": "MIT"
